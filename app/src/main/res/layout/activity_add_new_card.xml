@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<LinearLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.AddNewClientActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_60sdp"
+                android:background="@drawable/blue_upper_border" />
+
+            <ImageView
+                android:id="@+id/arrow"
+                android:layout_width="@dimen/_25sdp"
+                android:layout_height="@dimen/_25sdp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:src="@drawable/white_arrow"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/_12sdp"
+                android:layout_toEndOf="@+id/arrow"
+                android:text="Add New Card"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_16sdp" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:layout_marginEnd="@dimen/_10sdp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="19dp"
+                    android:layout_marginLeft="@dimen/_10sdp"
+                    android:layout_marginTop="@dimen/_25sdp"
+                    android:text="Name on Card"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_12sdp"
+                    />
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="@dimen/_5sdp"
+                   android:layout_marginBottom="@dimen/_5sdp"
+                    android:background="@drawable/focus"
+                    android:elevation="@dimen/_5sdp"
+                    android:hint="Amit Aggarwal"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:inputType="number"
+                    android:maxLength="40"
+                    android:padding="10dp"
+                    android:singleLine="true"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_12sdp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="19dp"
+                    android:layout_marginLeft="@dimen/_10sdp"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:text="Card Number"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_12sdp"
+                    />
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="@dimen/_5sdp"
+                    android:layout_marginBottom="@dimen/_5sdp"
+                    android:background="@drawable/focus"
+                    android:elevation="@dimen/_5sdp"
+                    android:hint="1234567890123"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:inputType="number"
+                    android:maxLength="40"
+                    android:padding="10dp"
+                    android:singleLine="true"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_12sdp" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="start"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="25dp"
+                        android:layout_marginTop="@dimen/_10sdp"
+                        android:layout_marginStart="10dp"
+                        android:layout_weight="1"
+                        android:textColor="@color/black"
+                        android:imeOptions="actionNext"
+                        android:singleLine="true"
+                        android:text="Expiry Date"
+                        android:textSize="@dimen/_10sdp" />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_40sdp"
+                        android:gravity="center"
+
+                        android:layout_marginRight="@dimen/_10sdp"
+                        android:orientation="horizontal">
+                            <EditText
+                                android:id="@+id/edt_expdate"
+                                android:layout_width="0dp"
+                                android:background="@drawable/focus"
+                                android:elevation="@dimen/_5sdp"
+
+                                android:layout_height="@dimen/_40sdp"
+                                android:layout_gravity="center_vertical"
+                                android:layout_marginStart="@dimen/_5sdp"
+                                android:layout_marginEnd="@dimen/_10sdp"
+                                android:layout_marginTop="@dimen/_5sdp"
+                                android:layout_marginBottom="@dimen/_5sdp"
+                                android:layout_weight="1"
+                                android:gravity="center_vertical"
+                                android:hint="12/25"
+                                android:padding="@dimen/_10sdp"
+                                android:textColorHint="@color/black"
+
+                                android:textSize="@dimen/_12sdp"
+                                android:imeOptions="actionNext"
+                                android:inputType="number"
+                                android:maxLength="10"
+                                android:singleLine="true"
+                                app:hintAnimationEnabled="false"
+                                app:hintEnabled="false" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="start"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:id="@+id/tv_Mobile"
+                        android:layout_height="25dp"
+                        android:layout_marginTop="@dimen/_10sdp"
+                        android:layout_marginStart="10dp"
+                        android:layout_weight="1"
+                        android:textColor="@color/black"
+                        android:imeOptions="actionNext"
+                        android:singleLine="true"
+                        android:text="CVV"
+                        android:textSize="@dimen/_10sdp" />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_40sdp"
+                        android:layout_marginEnd="@dimen/_5sdp"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                            <EditText
+                                android:id="@+id/edt_cvv"
+                                android:layout_width="0dp"
+                                android:background="@drawable/focus"
+                                android:elevation="@dimen/_5sdp"
+                                android:layout_height="@dimen/_40sdp"
+                                android:layout_gravity="center_vertical"
+                                android:layout_marginStart="@dimen/_10sdp"
+                                android:layout_marginEnd="@dimen/_5sdp"
+
+                                android:layout_weight="1"
+                                android:gravity="center_vertical"
+                                android:hint="123"
+                                android:padding="@dimen/_10sdp"
+                                android:textColorHint="@color/black"
+
+                                android:textSize="@dimen/_12sdp"
+                                android:imeOptions="actionNext"
+                                android:inputType="number"
+                                android:maxLength="4"
+                                android:singleLine="true"
+                                app:hintAnimationEnabled="false"
+                                app:hintEnabled="false" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="19dp"
+                    android:layout_marginLeft="@dimen/_10sdp"
+                    android:layout_marginTop="@dimen/_20sdp"
+                    android:text="Save card for future reference"
+                    android:buttonTint="@color/theme_blue"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_12sdp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/_10sdp"
+                android:weightSum="2"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_35sdp"
+                    android:layout_margin="@dimen/_10sdp"
+                    android:layout_gravity="bottom"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:background="@drawable/red_background">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="@dimen/_5sdp"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+
+                        android:text="Cancel"
+                        android:textColor="@color/red"
+                        android:textStyle="bold"
+                        android:textAllCaps="false"
+                        android:textSize="@dimen/_14sdp"
+                        />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_35sdp"
+                    android:layout_margin="@dimen/_10sdp"
+                    android:layout_gravity="bottom"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:background="@drawable/blue_background">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="@dimen/_5sdp"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:text="Pay"
+                        android:textColor="@color/white"
+                        android:textStyle="bold"
+                        android:textAllCaps="false"
+                        android:textSize="@dimen/_14sdp"
+                        />
+
+                    <ImageView
+                        android:layout_width="@dimen/_20sdp"
+                        android:layout_height="20dp"
+                        android:src="@drawable/icon_next"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="@dimen/_5sdp"
+                        app:tint="@color/white" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
+
+</layout>

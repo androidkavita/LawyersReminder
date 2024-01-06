@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.ChooseRoleActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_80sdp"
+            android:layout_marginTop="@dimen/_80sdp"
+            android:src="@drawable/splash_screen_logo"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Choose Your Role"
+            android:textStyle="bold"
+            android:textSize="@dimen/_20sdp"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/_25sdp"
+            android:textColor="@color/black"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:layout_marginHorizontal="@dimen/_20sdp"
+            android:weightSum="2">
+
+            <LinearLayout
+                android:id="@+id/advocate"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_marginRight="@dimen/_10sdp"
+                android:orientation="vertical"
+                android:elevation="@dimen/_10sdp"
+                android:background="@drawable/blue_background">
+
+                <ImageView
+                    android:id="@+id/advocate_image"
+                    android:layout_width="@dimen/_40sdp"
+                    android:layout_height="@dimen/_50sdp"
+                    android:src="@drawable/advocate_img"
+                    android:layout_marginTop="@dimen/_20sdp"/>
+
+                <TextView
+                    android:id="@+id/advocate_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="I am Advocate"
+                    android:textSize="@dimen/_12sdp"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="@dimen/_20sdp"
+                    android:layout_marginTop="@dimen/_30sdp"
+                    android:textColor="@color/white"/>
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/assistant"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:orientation="vertical"
+                android:elevation="@dimen/_10sdp"
+
+                android:background="@drawable/white_background">
+
+                <ImageView
+                    android:id="@+id/assistant_image"
+                    android:layout_width="@dimen/_45sdp"
+                    android:layout_height="@dimen/_60sdp"
+                    android:src="@drawable/assistant_img"/>
+
+                <TextView
+                    android:id="@+id/assistant_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="I am Assistant"
+                    android:textSize="@dimen/_12sdp"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:layout_marginTop="@dimen/_20sdp"
+                    android:textColor="@color/theme_blue"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
+</layout>

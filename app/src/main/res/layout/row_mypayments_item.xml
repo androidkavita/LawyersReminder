@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/_5sdp"
+    android:elevation="@dimen/_5sdp"
+    android:id="@+id/llViewdetails"
+    android:orientation="vertical"
+    android:padding="@dimen/_5sdp"
+    android:background="@drawable/focus"
+
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+
+    >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            android:padding="3dp">
+
+            <TextView
+                android:id="@+id/subscription_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:gravity="start|center"
+                android:fontFamily="@font/roboto_regular"
+                android:textSize="@dimen/_12sdp"
+                android:text="Purchase 3 Months Plan"
+                android:textColor="@color/black" />
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center"
+                android:gravity="end"
+                android:layout_weight="1"
+                >
+
+                <TextView
+                    android:id="@+id/price"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="end|center"
+                    android:fontFamily="@font/roboto_medium"
+                    android:textSize="@dimen/_12sdp"
+                    android:text=""
+                    android:textColor="@color/red" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="3dp">
+
+            <TextView
+                android:id="@+id/date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="start|center"
+                android:fontFamily="@font/roboto_regular"
+                android:textSize="@dimen/_10sdp"
+                android:text="01, Nov, 2022"
+                android:textColor="@color/black" />
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="start|center"
+                android:fontFamily="@font/roboto_regular"
+                android:textSize="@dimen/_12sdp"
+                android:text=" | "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="start|center"
+                android:fontFamily="@font/roboto_regular"
+                android:textSize="@dimen/_10sdp"
+                android:text="12:30PM"
+                android:textColor="@color/black" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center"
+                android:gravity="end"
+                android:layout_weight="1.2"
+                >
+
+                <TextView
+                    android:id="@+id/payment_by"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="start|center"
+                    android:fontFamily="@font/roboto_regular"
+                    android:textSize="@dimen/_10sdp"
+                    android:text="Pay via Credit Card"
+                    android:textColor="@color/textgray" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+</layout>

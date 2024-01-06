@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "871265215242",
+    "project_id": "lawyersbuddy2022",
+    "storage_bucket": "lawyersbuddy2022.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:871265215242:android:a99a9b5d6dddfc605690f3",
+        "android_client_info": {
+          "package_name": "com.lawyersbuddy.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "871265215242-4f4u57g6prknhao8t8acvpfqpsocsm6v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAfUj9XncUPva9LWnruZUZJfUIB046AXUA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "871265215242-4f4u57g6prknhao8t8acvpfqpsocsm6v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

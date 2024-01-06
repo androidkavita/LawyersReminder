@@ -1,0 +1,88 @@
+<resources>
+    <string name="app_name">Lawyer\'s Buddy</string>
+    <string name="i_agree_to">I agree to the "Lawyer\'s Reminder Application"</string>
+    <string name="terms">Terms of Service and Privacy policy</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="otp_verification">OTP Verification</string>
+    <string name="we_have_sent_otp_on_your_register_mobile_number">We have sent OTP on your register mobile number</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+
+    <string name="pressbackagain">Press Back again to Exit.</string>
+
+    <string name="myprofile">My Profile</string>
+    <string name="mysubscription">My Subscription &amp; Offers</string>
+    <string name="mypayment">My Payment</string>
+    <string name="settings">Settings</string>
+    <string name="notifications">Notifications</string>
+    <string name="aboutus">About us</string>
+    <string name="whyus">Why us</string>
+    <string name="contactus">Contact us</string>
+    <string name="logout">Logout</string>
+
+    <string-array name="search">
+        <item>Clients</item>
+        <item>Cases</item>
+        <item>Hearing</item>
+    </string-array>
+    <string name="please_enter_name">Please enter name</string>
+    <string name="please_enter_state">Please enter state</string>
+    <string name="please_enter_city">Please enter city</string>
+    <string name="please_enter_bar_association">Please enter bar association</string>
+    <string name="please_enter_bar_council_number">Please enter council number</string>
+    <string name="please_enter_address">Please enter address</string>
+
+
+    <string name="please_enter_client_id">Please enter client id</string>
+    <string name="please_enter_case_id">Please enter case id</string>
+    <string name="please_enter_case_stage">Please enter case stage</string>
+    <string name="please_enter_bar_case_status">Please enter case status</string>
+    <string name="please_enter_current_date">Please enter current date</string>
+    <string name="please_enter_hearing_details">Please enter hearing details</string>
+    <string name="please_enter_hearing_date">Please enter hearing date</string>
+
+
+    <string name="hint_email">example@gmail.com</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="please_enter_email_address">Please Enter email address.</string>
+    <string name="please_enter_valid_email_address">Please enter valid email address.</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="make_sure_you_have_an_active_data_connection">Make sure you have an active data connection</string>
+    <string name="connection_timeout">Connection Timeout</string>
+    <string name="oops_somethings_went_wrong">Oops! Somethings went wrong</string>
+    <string name="please_enter_password">Please enter password.</string>
+    <string name="please_enter_valid_password">Password field at least must have entered one capital letter, one special character, and varchar values and password length should be minimum of 6 letters</string>
+    <string name="please_enter_valid_domain">Please enter valid email address.</string>
+    <string name="please_enter_zipcode">Please enter zipcode</string>
+    <string name="please_enter_valid_zipcode">Please enter valid zipcode</string>
+    <string name="no_events_for_today">No Events For Today!</string>
+    <string name="today_event_detail">Today Event Detail</string>
+    <string name="hearing_date">Hearing Date</string>
+    <string name="case_number">Case Number</string>
+    <string name="name_of_court">Name of Court</string>
+    <string name="party_name">Party Name v/s</string>
+    <string name="position_stage">Position Stage</string>
+    <string name="cnr">CNR</string>
+    <string name="next_date">Next Date</string>
+    <string name="no_payment_available">No Payment Available!</string>
+    <string name="no_notification_available">Notification not found!</string>
+    <string name="client_not_available">Client not available!</string>
+    <string name="case_not_available">Case not Available!</string>
+    <string name="no_record_found">Record not found!</string>
+    <string name="start_date">Start Date</string>
+    <string name="end_date">End Date</string>
+    <string name="assistants_not_available">Assistants are not available!</string>
+    <string name="cnr_number">CNR Number</string>
+    <string name="client_name">Client Name</string>
+    <string name="assistant_detail">Assistant Detail</string>
+    <string name="name">Name</string>
+    <string name="mobile_number">Mobile Number</string>
+    <string name="hearing_not_available">Hearing not available!</string>
+    <string name="opponent_s_party_name">Opponent\'s Party Name</string>
+
+
+</resources>
